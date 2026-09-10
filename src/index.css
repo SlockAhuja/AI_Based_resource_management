@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+  
+  body {
+    @apply bg-slate-50 text-slate-900 overflow-x-hidden;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md border border-slate-200/80 shadow-glass rounded-2xl transition-all duration-300;
+  }
+  
+  .glass-card-hover {
+    @apply hover:shadow-glass-hover hover:border-blue-300 hover:translate-y-[-2px];
+  }
+  
+  .glass-card-dark {
+    @apply bg-slate-900/90 backdrop-blur-md border border-slate-700/80 shadow-2xl rounded-2xl text-white;
+  }
+  
+  .gradient-text-blue {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-800;
+  }
+  
+  .gradient-text-orange {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-orange-600 via-amber-500 to-orange-500;
+  }
+
+  .gradient-badge-blue {
+    @apply bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200/80 text-blue-700;
+  }
+
+  .gradient-badge-orange {
+    @apply bg-gradient-to-r from-orange-50 to-amber-50 border border-orange-200/80 text-orange-700;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Range slider styling */
+input[type="range"] {
+  @apply accent-blue-600 cursor-pointer;
+}
+
+/* Presentation mode specific helpers */
+.presentation-slide {
+  height: calc(100vh - 80px);
+}

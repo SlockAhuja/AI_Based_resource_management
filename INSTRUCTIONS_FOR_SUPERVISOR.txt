@@ -1,0 +1,49 @@
+================================================================================
+IEEE ACROSET 2026 -- RESEARCH DEMONSTRATION PLATFORM (PAPER ID: 272)
+================================================================================
+
+Respected Prof. Dr. Praveen Kumar Sharma Sir,
+
+Title: "AI-Enabled Resource Management for Non-Terrestrial Network Integrated 6G Communication Systems"
+Conference: IEEE ACROSET 2026 (12–13 September 2026, Indore, Madhya Pradesh, India)
+Presenter: Slock Ahuja
+Department of Information and Communication Technology, Marwadi University
+
+--------------------------------------------------------------------------------
+HOW TO RUN THE INTERACTIVE DEMO (2 EASY WAYS):
+--------------------------------------------------------------------------------
+
+OPTION 1: (Instant 1-Click - No Installation Required)
+   - Double-click "VIEW_OFFLINE_DEMO.bat"
+   - It will immediately open the complete standalone application in your browser.
+
+OPTION 2: (Live Development Server)
+   - Double-click "START_DEMO.bat"
+   - It starts the local server and opens http://127.0.0.1:3000/
+
+ONLINE CLOUD LINK:
+   - https://slockahuja.github.io/AI_Based_resource_management/
+
+--------------------------------------------------------------------------------
+KEY FEATURES TO REVIEW IN THE APPLICATION:
+--------------------------------------------------------------------------------
+
+1. SECTION 1-4: Hero, Presenter Profile, Supervisor Bio & Authors List
+2. SECTION 5-7: Problem Formulation, 6G NTN Architecture & 8-Stage PPO Pipeline
+3. SECTION 8 (FLAGSHIP DEMO):
+   - Interactive 2D Canvas LEO constellation simulation with dynamic spot beams
+   - Real-time sliders for Users (5 to 500), Satellites (1 to 50), and Channels
+   - PPO AI (ON/OFF) toggle demonstrating real-time SINR and link allocations
+   - Clickable satellite and user node inspection
+4. SECTION 9-10: Side-by-side AI vs Baseline comparison and Quantitative Charts
+5. SECTION 12: Published Paper Benchmarks (Throughput: 2587.56 vs 2253.55 Mbps, Loss: 3% vs 8%, Latency: 30ms vs 55ms)
+6. SECTION 15: Conference Presentation Mode (Live presentation slide interface for the ACROSET 2026 stage)
+
+--------------------------------------------------------------------------------
+GITHUB REPOSITORY:
+https://github.com/SlockAhuja/AI_Based_resource_management
+
+Thank you, Sir!
+Slock Ahuja
+Student Researcher & Presenter
+================================================================================
